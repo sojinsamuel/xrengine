@@ -126,7 +126,7 @@ The default username is 'server', the default password is 'password', the defaul
     At this point, the database has been seeded. You can shut down the server with CTRL+C.
 
 #### 7. Local file server configuration
-   If the .env.local file y ou have has the line 
+   If the .env.local file you have has the line 
    ```STORAGE_PROVIDER=local```
    then the scene editor will save components, models, scenes, etc. locally 
    (as opposed to storing them on S3). You will need to start a local server
@@ -306,7 +306,7 @@ Method 2:
 2. Dev DB credentials can be found here: packages/ops/docker-compose-local.yml#L42
 3. Suggested: beekeeperstudio.io
 
-Test user Admin privliges by going to `/admin`
+Test user Admin privileges by going to `/admin`
 
 # Development
 
